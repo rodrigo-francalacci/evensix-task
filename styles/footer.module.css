@@ -1,0 +1,52 @@
+.footerContainer{
+    width: 100%;
+    max-width: 1440px;
+    height: 205px;
+    background-color:  var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+        .logoContainer{
+            
+            width: fit-content;
+            height: fit-content;
+            display:flex;
+            align-items: center;
+            margin-left: 80px;
+        }
+
+        .footerNav{
+            
+            display: flex;
+            width: 500px;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+                .footerNavItem{
+                    
+            
+                    /* Desktop/Footer */
+
+                    font-family: Josefin Sans;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+                    line-height: 16px;
+                    /* identical to box height, or 160% */
+
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+
+                    /* 02 */
+                    color: var(--color2);
+
+
+                    /* Inside auto layout */
+                }
+
+
+                

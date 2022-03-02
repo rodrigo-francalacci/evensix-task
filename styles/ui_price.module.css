@@ -1,0 +1,67 @@
+.priceLabel{
+
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 758px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color1);
+    color: var(--color2);
+    border-radius: 50px;  
+
+}
+
+.p1{
+ 
+    position: static;
+    width: 57px;
+    height: 16px;
+    left: 4.83px;
+    top: -0.79px;
+
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.08rem;
+    line-height: 1rem;
+
+    color: var(--color2);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 1px 0px;
+}
+
+.p2{
+    
+    position: static;
+    width: 70px;
+    height: 16px;
+    left: -1.67px;
+    top: 16.21px;
+
+
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.916rem;
+    line-height: 1rem;
+
+    color: var(--color2);
+    opacity: 0.4;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 1px 0px;
+}
+
+
+

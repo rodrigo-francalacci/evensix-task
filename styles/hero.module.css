@@ -1,0 +1,112 @@
+.heroContainer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+    .heroTextContainer{
+        background-color: var(--color3);
+        height: 536px;
+        width: 100%;
+        display: block;
+        position: relative;
+        
+    }
+
+            .heroTextItems{
+                position: relative;
+                top: 113px;
+            }
+                .heading1{
+                    /* Title */
+                    width: fit-content;
+                    height: fit-content;
+                    margin: 0;
+                    margin-left: 112px;
+                    
+
+                    /* Desktop/Heading 1 */
+                    font-family: Audrey;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 3.33rem;
+                    line-height: 3rem;
+                    /* identical to box height */
+
+                    letter-spacing: 11px;
+                    text-transform: uppercase;
+
+                    /* 01 */
+                    color:  var(--color1);
+
+                    
+                }
+
+                .heroContent{
+
+                    /* Paragraph */
+                    width: 445px;
+                    height: fit-content;
+                    margin-left: 112px;
+                    
+
+                    /* Desktop/Paragraph */
+                    font-family: Josefin Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 1.5rem;
+                    line-height: 1.8125rem;
+                    
+
+                    /* 01 */
+                    color: var(--color1);
+                    margin-left: 112px;
+
+                }
+
+                .heroButton{
+                    margin-left: 112px;
+                }
+
+    
+    .heroImagesContainer{
+        height: 296px;
+        width: 100%;
+        background-color: var(--color2);
+
+    }
+
+            .carouselDiv{
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+                top: -150px;
+                background: rgba(255, 255, 255, 0.04);
+                display: flex;
+                flex-direction: row;
+                flex-shrink: 0;
+                cursor: grab;
+                overflow-x: auto;
+                z-index: 3;
+                
+            
+            }
+
+            .carouselDiv::-webkit-scrollbar { /*fix this later */
+                width: 0px;
+                background: transparent; /* make scrollbar transparent */
+              }
+
+                .carouselItem{
+                    
+                    flex-shrink: 0;
+                    margin-left: 141px;
+
+                }
+                
+                .carouselPrice{
+                    position: relative;
+                    top: -230px;
+                    left: 332px;
+
+                }
+

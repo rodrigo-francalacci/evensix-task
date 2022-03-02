@@ -1,0 +1,114 @@
+.ctaContainer{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 678px;
+    margin-top: 144px;
+}
+        .ctaContainer > div{
+            width: 50%;
+            height: 100%;
+        }
+        
+
+        .blueCta{
+            background-color:  var(--color3);
+            background-image: url("/images/Caravan-Orange-R-2.png");
+            background-repeat: no-repeat;
+            background-position: -499px center;
+            background-size: 921px 421px;
+            
+        }
+
+            .keepOn{
+
+                /* KEEP ON */
+                position: relative;
+                float: right;
+                right: 17px;
+                top: 197px;
+
+                /* Desktop/Heading 5 */
+                font-family: Audrey;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 8px;
+                text-transform: uppercase;
+
+                /* 01 */
+                color: #03110E;
+            }
+
+            .comerical{
+            
+            position: relative;
+            float: right;
+            right: -70px;
+            top: 290px;
+            margin: 0;
+            padding: 0;;
+
+            /* Desktop/Heading 4 */
+            font-family: Audrey;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+
+            /* 01 */
+            color: #03110E;
+            }
+
+
+        .redCta{
+            background-color: var(--color5);
+            background-image: url("/images/Caravan-Red-R-1.png");
+            background-repeat: no-repeat;
+            background-position: 305px center;
+            background-size: 921px 421px;
+            
+        }
+
+            .exploring{
+          
+            position: relative;    
+            left: 15px;
+            top: 197px;
+
+
+            /* Desktop/Heading 5 */
+            font-family: Audrey;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            }
+
+            .tourers{
+            /* Tourers */
+            position: relative;
+            top: 240px;
+            left: 57px;
+            
+
+            /* Desktop/Heading 4 */
+            font-family: Audrey;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            }
